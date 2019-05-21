@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="communication.h">
+      <Filter>communication</Filter>
+    </ClInclude>
+    <ClInclude Include="api.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>functions</Filter>
+    </ClInclude>
+    <ClInclude Include="set_clan_tag.h">
+      <Filter>functions</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{147026ab-e01b-45d1-8dd7-241c983edbd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functions">
+      <UniqueIdentifier>{f50e2ea8-cd3a-4f02-bdd1-35ab22997357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="communication">
+      <UniqueIdentifier>{91ba6cdc-ca02-47c8-b23e-c028d43f1949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{ffcea362-509f-4d3c-9c5c-5f28e08e234d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="communication.cpp">
+      <Filter>communication</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE" />
+  </ItemGroup>
+</Project>
